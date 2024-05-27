@@ -68,7 +68,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 }; ?>
 
 <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-    <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+    <h1 class="text-xl font-bold leading-tight tracking-tight text-dark-900 md:text-2xl dark:text-white">
         Reset Password
     </h1>
     <form wire:submit="resetPassword">

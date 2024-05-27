@@ -1,6 +1,6 @@
 <div>
     <header
-        class="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-[48] w-full bg-white border-b text-sm py-2.5 sm:py-4 lg:ps-64 dark:bg-neutral-800 dark:border-neutral-700">
+        class="sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-[48] w-full bg-white border-b text-sm py-2.5 sm:py-4 lg:ps-64 dark:bg-dark-900 dark:border-dark-700">
         <nav class="flex items-center w-full px-4 mx-auto basis-full sm:px-6" aria-label="Global">
             <div class="me-5 lg:me-0 lg:hidden">
                 <!-- Logo -->
@@ -27,7 +27,7 @@
             <div class="flex items-center justify-end w-full ms-auto sm:justify-between sm:gap-x-3 sm:order-3">
                 <div class="sm:hidden">
                     <button type="button"
-                        class="w-[2.375rem] h-[2.375rem] inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-700">
+                        class="w-[2.375rem] h-[2.375rem] inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-dark-800 hover:bg-dark-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-dark-700">
                         <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -41,7 +41,7 @@
                     <label for="icon" class="sr-only">Search</label>
                     <div class="relative min-w-72 md:min-w-80">
                         <div class="absolute inset-y-0 z-20 flex items-center pointer-events-none start-0 ps-4">
-                            <svg class="flex-shrink-0 text-gray-400 size-4 dark:text-neutral-400"
+                            <svg class="flex-shrink-0 text-dark-400 size-4 dark:text-dark-400"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round">
@@ -50,14 +50,14 @@
                             </svg>
                         </div>
                         <input type="text" id="icon" name="icon"
-                            class="block w-full px-4 py-2 text-sm border-gray-200 rounded-lg ps-11 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                            class="block w-full px-4 py-2 text-sm rounded-lg border-dark-200 ps-11 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-dark-800 dark:border-dark-700 dark:text-dark-400 dark:placeholder-dark-500 dark:focus:ring-dark-600"
                             placeholder="Search">
                     </div>
                 </div>
 
                 <div class="flex flex-row items-center justify-end gap-2">
                     <button type="button"
-                        class="flex items-center block font-medium text-gray-600 hs-dark-mode-active:hidden hs-dark-mode group hover:text-blue-600 dark:text-neutral-400 dark:hover:text-neutral-500"
+                        class="flex items-center block font-medium text-dark-600 hs-dark-mode-active:hidden hs-dark-mode group hover:text-blue-600 dark:text-dark-400 dark:hover:text-dark-500"
                         data-hs-theme-click-value="dark">
                         <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -66,7 +66,7 @@
                         </svg>
                     </button>
                     <button type="button"
-                        class="flex items-center hidden font-medium text-gray-600 hs-dark-mode-active:block hs-dark-mode group hover:text-blue-600 dark:text-neutral-400 dark:hover:text-neutral-500"
+                        class="flex items-center hidden font-medium text-dark-600 hs-dark-mode-active:block hs-dark-mode group hover:text-blue-600 dark:text-dark-400 dark:hover:text-dark-500"
                         data-hs-theme-click-value="light">
                         <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -84,7 +84,7 @@
                     </button>
 
                     <button type="button"
-                        class="w-[2.375rem] h-[2.375rem] inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-700">
+                        class="w-[2.375rem] h-[2.375rem] inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-dark-800 hover:bg-dark-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-dark-700">
                         <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -95,22 +95,22 @@
 
                     <div class="hs-dropdown [--placement:bottom-right] relative inline-flex">
                         <button id="hs-dropdown-with-header" type="button"
-                            class="w-[2.375rem] h-[2.375rem] inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-700">
-                            <img class="inline-block size-[38px] rounded-full ring-2 ring-white dark:ring-neutral-800"
+                            class="w-[2.375rem] h-[2.375rem] inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-dark-800 hover:bg-dark-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-dark-700">
+                            <img class="inline-block size-[38px] rounded-full ring-2 ring-white dark:ring-dark-800"
                                 src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
                                 alt="Image Description">
                         </button>
 
-                        <div class="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 opacity-0 hidden min-w-60 bg-white shadow-md rounded-lg p-2 dark:bg-neutral-900 dark:border dark:border-neutral-700"
+                        <div class="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 opacity-0 hidden min-w-60 bg-white shadow-md rounded-lg p-2 dark:bg-dark-900 dark:border dark:border-dark-700"
                             aria-labelledby="hs-dropdown-with-header">
-                            <div class="px-5 py-3 -m-2 bg-gray-100 rounded-t-lg dark:bg-neutral-800">
-                                <p class="text-sm text-gray-500 dark:text-neutral-400">Signed in as</p>
-                                <p class="text-sm font-medium text-gray-800 dark:text-neutral-300">
+                            <div class="px-5 py-3 -m-2 rounded-t-lg bg-dark-100 dark:bg-dark-800">
+                                <p class="text-sm text-dark-500 dark:text-dark-400">Signed in as</p>
+                                <p class="text-sm font-medium text-dark-800 dark:text-dark-300">
                                     {{ auth()->user()->email }}
                                 </p>
                             </div>
                             <div class="py-2 mt-2 first:pt-0 last:pb-0">
-                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300"
+                                <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-dark-800 hover:bg-dark-100 focus:ring-2 focus:ring-blue-500 dark:text-dark-400 dark:hover:bg-dark-700 dark:hover:text-dark-300"
                                     href="{{ route('profile') }}" wire:navigate>
                                     <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -123,7 +123,7 @@
                                 </a>
                                 <x-hr />
                                 <button wire:click='logout'
-                                    class="flex items-center w-full gap-x-3.5 py-2 px-3 rounded-lg text-sm text-gray-800 hover:bg-red-200 focus:ring-2 focus:ring-blue-500 dark:text-neutral-400 dark:hover:bg-red-700 dark:hover:text-red-300">
+                                    class="flex items-center w-full gap-x-3.5 py-2 px-3 rounded-lg text-sm text-dark-800 hover:bg-red-200 focus:ring-2 focus:ring-blue-500 dark:text-dark-400 dark:hover:bg-red-700 dark:hover:text-red-300">
                                     <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
                                         width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -146,7 +146,7 @@
     <!-- ========== MAIN CONTENT ========== -->
     <!-- Breadcrumb -->
     <div
-        class="sticky inset-x-0 top-0 z-20 px-4 bg-white border-b sm:px-6 md:px-8 lg:hidden dark:bg-neutral-800 dark:border-neutral-700">
+        class="sticky inset-x-0 top-0 z-20 px-4 bg-white border-b sm:px-6 md:px-8 lg:hidden dark:bg-dark-800 dark:border-dark-700">
         <div class="flex items-center justify-between py-2">
             <!-- Breadcrumb -->
             @livewire('partials.breadcrumb')
@@ -154,7 +154,7 @@
 
             <!-- Sidebar -->
             <button type="button"
-                class="py-2 px-3 flex justify-center items-center gap-x-1.5 text-xs rounded-lg border border-gray-200 text-gray-500 hover:text-gray-600 dark:border-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200"
+                class="py-2 px-3 flex justify-center items-center gap-x-1.5 text-xs rounded-lg border border-dark-200 text-dark-500 hover:text-dark-600 dark:border-dark-700 dark:text-dark-400 dark:hover:text-dark-200"
                 data-hs-overlay="#application-sidebar" aria-controls="application-sidebar" aria-label="Sidebar">
                 <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"

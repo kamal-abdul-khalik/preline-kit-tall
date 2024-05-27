@@ -20,13 +20,13 @@
 
     <body>
 
-        <section class="bg-gray-50 dark:bg-gray-900">
+        <section class="bg-dark-50 dark:bg-dark-900">
             <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                 <a href="/" wire:navigate>
                     <x-application-logo class="w-20 h-20 mb-6" />
                 </a>
                 <div
-                    class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+                    class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-dark-800 dark:border-dark-700">
 
                     {{ $slot }}
 

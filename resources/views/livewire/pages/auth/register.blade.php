@@ -37,7 +37,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 }; ?>
 
 <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-    <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+    <h1 class="text-xl font-bold leading-tight tracking-tight text-dark-900 md:text-2xl dark:text-white">
         Register your account
     </h1>
     <form wire:submit="register" novalidate>
@@ -83,7 +83,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
             </x-button>
         </div>
     </form>
-    <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+    <p class="text-sm font-light text-dark-500 dark:text-dark-400">
         {{ __('Already registered?') }} <x-link href="/login">Login</x-link>
     </p>
 </div>

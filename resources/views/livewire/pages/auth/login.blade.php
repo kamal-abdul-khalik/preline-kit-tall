@@ -25,7 +25,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
 }; ?>
 
 <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-    <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+    <h1 class="text-xl font-bold leading-tight tracking-tight text-dark-900 md:text-2xl dark:text-white">
         Sign in to your account
     </h1>
     <!-- Session Status -->
@@ -58,9 +58,9 @@ new #[Layout('components.layouts.guest')] class extends Component {
         <div class="flex items-center justify-between mt-4">
             <label for="remember" class="inline-flex items-center">
                 <input wire:model="form.remember" id="remember" type="checkbox"
-                    class="border-gray-300 rounded shadow-sm text-primary-600 dark:bg-gray-900 dark:border-gray-700 focus:ring-primary-500 dark:focus:ring-primary-600 dark:focus:ring-offset-gray-800"
+                    class="border-dark-300 rounded shadow-sm text-primary-600 dark:bg-dark-900 dark:border-dark-700 focus:ring-primary-500 dark:focus:ring-primary-600 dark:focus:ring-offset-dark-800"
                     name="remember">
-                <span class="text-sm text-gray-600 ms-2 dark:text-gray-400">{{ __('Remember me') }}</span>
+                <span class="text-sm text-dark-600 ms-2 dark:text-dark-400">{{ __('Remember me') }}</span>
             </label>
 
             @if (Route::has('password.request'))
@@ -77,7 +77,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
             </x-button>
         </div>
     </form>
-    <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+    <p class="text-sm font-light text-dark-500 dark:text-dark-400">
         Don’t have an account yet? <x-link href="/register">Register</x-link>
     </p>
 </div>

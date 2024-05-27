@@ -6,10 +6,10 @@ hs-overlay-open:translate-x-0
 w-[260px]
 hidden
 fixed inset-y-0 start-0 z-[60]
-bg-white border-e border-gray-200
+bg-white border-e border-dark-200
 lg:block lg:translate-x-0 lg:end-auto lg:bottom-0
-dark:bg-neutral-800 dark:border-neutral-700
-hs-overlay-backdrop-open:bg-secondary-400/50
+dark:bg-dark-900 dark:border-dark-700
+hs-overlay-backdrop-open:bg-dark-700/50
 ">
     <div class="px-8 pt-4">
         <!-- Logo -->
@@ -35,7 +35,7 @@ hs-overlay-backdrop-open:bg-secondary-400/50
     <nav class="flex flex-col flex-wrap w-full p-6 hs-accordion-group" data-hs-accordion-always-open>
         <ul class="space-y-1.5">
             <li>
-                <a class="flex items-center gap-x-3.5 py-2 px-2.5 bg-gray-100 text-sm text-neutral-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-700 dark:text-white"
+                <a class="flex items-center gap-x-3.5 py-2 px-2.5 bg-dark-100 text-sm text-dark-700 rounded-lg hover:bg-dark-100 dark:bg-dark-700 dark:text-white"
                     href="{{ route('dashboard') }}" wire:navigate>
                     <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -49,7 +49,7 @@ hs-overlay-backdrop-open:bg-secondary-400/50
 
             <li class="hs-accordion" id="account-accordion">
                 <button type="button"
-                    class="hs-accordion-toggle w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent text-sm text-neutral-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 dark:hs-accordion-active:text-white">
+                    class="hs-accordion-toggle w-full text-start flex items-center gap-x-3.5 py-2 px-2.5 hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent text-sm text-dark-700 rounded-lg hover:bg-dark-100 dark:bg-dark-800 dark:hover:bg-dark-700 dark:text-dark-400 dark:hover:text-dark-300 dark:hs-accordion-active:text-white">
                     <svg class="flex-shrink-0 mt-0.5 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -84,19 +84,19 @@ hs-overlay-backdrop-open:bg-secondary-400/50
                     class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 hidden">
                     <ul class="pt-2 ps-2">
                         <li>
-                            <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-neutral-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300"
+                            <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-dark-700 rounded-lg hover:bg-dark-100 dark:bg-dark-800 dark:text-dark-400 dark:hover:text-dark-300"
                                 href="#">
                                 Link 1
                             </a>
                         </li>
                         <li>
-                            <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-neutral-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300"
+                            <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-dark-700 rounded-lg hover:bg-dark-100 dark:bg-dark-800 dark:text-dark-400 dark:hover:text-dark-300"
                                 href="#">
                                 Link 2
                             </a>
                         </li>
                         <li>
-                            <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-neutral-700 rounded-lg hover:bg-gray-100 dark:bg-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-300"
+                            <a class="flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-dark-700 rounded-lg hover:bg-dark-100 dark:bg-dark-800 dark:text-dark-400 dark:hover:text-dark-300"
                                 href="#">
                                 Link 3
                             </a>
@@ -105,7 +105,7 @@ hs-overlay-backdrop-open:bg-secondary-400/50
                 </div>
             </li>
 
-            <li><a class="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-neutral-700 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300"
+            <li><a class="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-dark-700 rounded-lg hover:bg-dark-100 dark:hover:bg-dark-700 dark:text-dark-400 dark:hover:text-dark-300"
                     href="#">
                     <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -123,16 +123,7 @@ hs-overlay-backdrop-open:bg-secondary-400/50
                     </svg>
                     Calendar
                 </a></li>
-            <li><a class="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-neutral-700 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-300"
-                    href="#">
-                    <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
-                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-                    </svg>
-                    Documentation
-                </a></li>
+
         </ul>
     </nav>
 </div>

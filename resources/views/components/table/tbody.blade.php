@@ -1,1 +1,1 @@
-<tbody class="divide-y divide-gray-200 dark:divide-neutral-700">{{ $slot }}</tbody>
+<tbody class="divide-y divide-dark-200 dark:divide-dark-700">{{ $slot }}</tbody>

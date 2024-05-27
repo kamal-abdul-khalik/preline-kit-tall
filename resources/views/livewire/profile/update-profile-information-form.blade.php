@@ -84,11 +84,11 @@ new class extends Component {
 
                     @if (auth()->user() instanceof \Illuminate\Contracts\Auth\MustVerifyEmail && !auth()->user()->hasVerifiedEmail())
                         <div>
-                            <p class="mt-2 text-sm text-gray-800 dark:text-gray-200">
+                            <p class="mt-2 text-sm text-dark-800 dark:text-dark-200">
                                 {{ __('Your email address is unverified.') }}
 
                                 <button wire:click.prevent="sendVerification"
-                                    class="text-sm text-gray-600 underline rounded-md dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800">
+                                    class="text-sm text-dark-600 underline rounded-md dark:text-dark-400 hover:text-dark-900 dark:hover:text-dark-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-dark-800">
                                     {{ __('Click here to re-send the verification email.') }}
                                 </button>
                             </p>

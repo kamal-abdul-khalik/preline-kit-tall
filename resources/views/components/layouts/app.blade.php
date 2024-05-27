@@ -20,7 +20,7 @@
         <script src="{{ asset('dark-mode.js') }}"></script>
     </head>
 
-    <body class="dark:bg-neutral-900 mb-[56px] sm:mb-[116px] dark:text-secondary-400">
+    <body class="dark:bg-dark-900 mb-[56px] sm:mb-[116px] dark:text-dark-400">
         @livewire('partials.navbar')
 
         @livewire('partials.sidebar')

@@ -36,10 +36,10 @@ new #[Layout('components.layouts.guest')] class extends Component {
 }; ?>
 
 <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-    <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+    <h1 class="text-xl font-bold leading-tight tracking-tight text-dark-900 md:text-2xl dark:text-white">
         Verify your email
     </h1>
-    <div class="mb-4 text-sm text-gray-600 dark:text-gray-400">
+    <div class="mb-4 text-sm text-dark-600 dark:text-dark-400">
         {{ __('Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.') }}
     </div>
 
@@ -55,7 +55,7 @@ new #[Layout('components.layouts.guest')] class extends Component {
         </x-button>
 
         <button wire:click="logout" type="submit"
-            class="text-sm text-gray-600 underline rounded-md dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-800">
+            class="text-sm text-dark-600 underline rounded-md dark:text-dark-400 hover:text-dark-900 dark:hover:text-dark-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-dark-800">
             {{ __('Log Out') }}
         </button>
     </div>

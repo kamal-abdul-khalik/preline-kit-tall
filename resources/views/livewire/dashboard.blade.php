@@ -41,7 +41,7 @@
                     <x-table.th>Action</x-table.th>
                 </tr>
             </x-table.thead>
-            <x-table.tbody class="divide-y divide-gray-200 dark:divide-neutral-700">
+            <x-table.tbody class="divide-y divide-dark-200 dark:divide-dark-700">
                 <tr>
                     <x-table.td>John Brown</x-table.td>
                     <x-table.td>45</x-table.td>

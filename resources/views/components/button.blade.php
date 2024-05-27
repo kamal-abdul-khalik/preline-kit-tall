@@ -19,7 +19,7 @@
         'info' =>
             'bg-info-700 hover:bg-info-600 active:bg-info-900 focus:ring-info-300 focus:ring-2 focus:ring-info-400',
         'transparent' =>
-            'hover:bg-gray-100 ring-1 ring-neutral-600 text-neutral-900 dark:text-neutral-200 focus:border-gray-900 focus:ring-gray-300 focus:ring-2 focus:ring-gray-500 focus:ring-offset-1 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:focus:ring-offset-gray-500',
+            'hover:bg-dark-100 ring-1 ring-dark-600 text-slate-800 dark:text-dark-200 focus:border-dark-900 focus:ring-dark-300 focus:ring-2 focus:ring-dark-500 focus:ring-offset-1 dark:bg-dark-800 dark:hover:bg-dark-700 dark:focus:ring-offset-dark-500',
     ];
     $style = $options[$color] ?? $options['primary'];
     if ($disabled) {
