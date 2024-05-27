@@ -6,12 +6,19 @@
         <x-stats title='Ini title' total='30.89' />
     </div>
 
+    <div class="my-2">
+        <x-select :options="$options" />
+    </div>
+    <x-selectmultiple :options="$options" />
+
     <div class="py-4">
         <x-button>Button</x-button>
         <x-button color='danger'>Button</x-button>
         <x-button color='success'>Button</x-button>
         <x-button color='info'>Button</x-button>
         <x-button color='warning'>Button</x-button>
+        <x-button color='secondary'>Button</x-button>
+        <x-button color='transparent'>Button</x-button>
     </div>
 
     <x-input />
@@ -60,4 +67,13 @@
         </x-card>
     </div>
 
+    <x-button color='info' x-data=""
+        x-on:click.prevent="$dispatch('open-modal', 'c')">{{ __('Delete Account') }}
+    </x-button>
+
+    <x-modal name="c" focusable>
+        <div class="p-6">
+            <x-input></x-input>
+        </div>
+    </x-modal>
 </div>

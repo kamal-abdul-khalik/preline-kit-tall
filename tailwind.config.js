@@ -19,14 +19,14 @@ export default {
         extend: {
             colors: {
                 transparent: "transparent",
-                black: colors.black,
                 white: colors.white,
                 secondary: colors.gray,
                 info: colors.cyan,
-                success: colors.green,
+                success: colors.emerald,
                 primary: colors.blue,
                 danger: colors.red,
-                warning: colors.yellow,
+                warning: colors.amber,
+                dark: colors.neutral,
             },
             fontFamily: {
                 sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
