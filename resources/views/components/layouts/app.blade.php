@@ -22,11 +22,10 @@
 
     <body class="dark:bg-dark-900 mb-[56px] sm:mb-[116px] dark:text-dark-400">
         @livewire('partials.navbar')
-
         @livewire('partials.sidebar')
 
-
         <div class="lg:ps-64">
+            <x-banner />
             <div class="p-4 space-y-4 sm:p-6 sm:space-y-6">
 
                 {{ $slot }}

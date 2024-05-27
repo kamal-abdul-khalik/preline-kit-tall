@@ -50,7 +50,7 @@
                             </svg>
                         </div>
                         <input type="text" id="icon" name="icon"
-                            class="block w-full px-4 py-2 text-sm rounded-lg border-dark-200 ps-11 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-dark-800 dark:border-dark-700 dark:text-dark-400 dark:placeholder-dark-500 dark:focus:ring-dark-600"
+                            class="block w-full px-4 py-2 text-sm border-transparent rounded-lg border-dark-200 ps-11 focus:ring-0 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-dark-800 dark:border-dark-700 dark:text-dark-400 dark:placeholder-dark-500 dark:focus:ring-dark-600"
                             placeholder="Search">
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                         <div class="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 opacity-0 hidden min-w-60 bg-white shadow-md rounded-lg p-2 dark:bg-dark-900 dark:border dark:border-dark-700"
                             aria-labelledby="hs-dropdown-with-header">
                             <div class="px-5 py-3 -m-2 rounded-t-lg bg-dark-100 dark:bg-dark-800">
-                                <p class="text-sm text-dark-500 dark:text-dark-400">Signed in as</p>
+                                <p class="text-sm text-dark-500 dark:text-dark-400">{{ auth()->user()->name }}</p>
                                 <p class="text-sm font-medium text-dark-800 dark:text-dark-300">
                                     {{ auth()->user()->email }}
                                 </p>
