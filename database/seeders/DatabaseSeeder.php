@@ -20,10 +20,11 @@ class DatabaseSeeder extends Seeder
         app()[PermissionRegistrar::class]->forgetCachedPermissions();
 
         // create permissions
-        Permission::create(['name' => 'edit articles']);
-        Permission::create(['name' => 'delete articles']);
-        Permission::create(['name' => 'publish articles']);
-        Permission::create(['name' => 'unpublish articles']);
+        Permission::create(['name' => 'index posts']);
+        Permission::create(['name' => 'edit posts']);
+        Permission::create(['name' => 'delete posts']);
+        Permission::create(['name' => 'publish posts']);
+        Permission::create(['name' => 'unpublish posts']);
 
         // gets all permissions via Gate::before rule; see AuthServiceProvider
         $superadmin = Role::create(['name' => 'superadmin']);
@@ -35,8 +36,9 @@ class DatabaseSeeder extends Seeder
 
         // create demo admin
         $admin = Role::create(['name' => 'admin']);
-        $admin->givePermissionTo('publish articles');
-        $admin->givePermissionTo('unpublish articles');
+        $admin->givePermissionTo('index posts');
+        $admin->givePermissionTo('publish posts');
+        $admin->givePermissionTo('unpublish posts');
         $user = \App\Models\User::factory()->create([
             'name' => 'Admin',
             'email' => 'admin@gmail.com',
